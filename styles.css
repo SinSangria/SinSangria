@@ -173,7 +173,7 @@ section {
 .quick-nav a {
   display: block;
   padding: 10px;
-  background-image: url('sideMenuButton.png');
+  background-image: url('images/sideMenuButton.png');
   background-repeat: no-repeat;
   background-position: 0 0;
   color: #fff;
