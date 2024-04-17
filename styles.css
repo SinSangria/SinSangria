@@ -73,8 +73,6 @@ header {
 }
 
 .social-links {
-  margin-top: -5px;
-  margin-bottom: 10px;
   background-image: url('images/NavBar.png');
   background-position: center;
   text-align: center;
@@ -95,6 +93,8 @@ hr {
 }
 
 nav {
+  margin-top: -5px;
+  margin-bottom: 10px;
   background-color: #FFF; /* Set the background color of the header navigation */
   background-color: #f2f2f2;
   padding: 10px 0;
