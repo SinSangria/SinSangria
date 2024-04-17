@@ -75,6 +75,7 @@ header {
 
 .social-links {
   background-image: url('images/NavBar.png');
+  background-position: center;
   text-align: center;
   padding: 10px 0;
 }
