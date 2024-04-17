@@ -71,7 +71,6 @@ header {
   top: 0;
   transition: top 0.3s ease;
   z-index: 1;
-  background-color: #FFF; /* Set the background color of the header navigation */
 }
 
 .social-links {
@@ -87,12 +86,14 @@ header {
 }
 
 hr {
+  background-color: #FFF; /* Set the background color of the header navigation */
   margin: 0;
   border: none;
   border-top: 1px solid #ccc;
 }
 
 nav {
+  background-color: #FFF; /* Set the background color of the header navigation */
   background-color: #f2f2f2;
   padding: 10px 0;
 }
