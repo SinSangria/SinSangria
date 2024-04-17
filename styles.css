@@ -69,10 +69,13 @@ header {
   position: relative;
   top: 0;
   transition: top 0.3s ease;
-  z-index: 1;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
 }
 
 .social-links {
+  order: 2;
   background-image: url('images/NavBar.png');
   background-position: center;
   text-align: center;
@@ -93,8 +96,8 @@ hr {
 }
 
 nav {
+  order: 1;
   margin-top: -5px;
-  margin-bottom: 10px;
   background-color: #FFF; /* Set the background color of the header navigation */
   background-color: #f2f2f2;
   padding: 10px 0;
