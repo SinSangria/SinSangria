@@ -89,6 +89,7 @@ header {
 }
 
 hr {
+  order: 3;
   background-color: #FFF; /* Set the background color of the header navigation */
   margin: 0;
   border: none;
