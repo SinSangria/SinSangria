@@ -46,7 +46,6 @@ header {
 }
 
 .header-content {
-  position: sticky;
   top: 0;
   background-color: transparent; /* Set the background color of the header content */
 }
