@@ -36,7 +36,6 @@ body {
 }
 
 header {
-  background-color: #FFF;
   position: relative;
   width: 100%;
   align-item: start;
@@ -53,7 +52,7 @@ header {
 .header-content {
   align-item: start;
   position: relative;
-  background-color: #FFF; /* Set the background color of the header content */
+  background-color: #F0F; /* Set the background color of the header content */
 }
 
 .floating-banner {
