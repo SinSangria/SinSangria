@@ -36,6 +36,7 @@ body {
 }
 
 header {
+  background-color: #FFF;
   position: relative;
   width: 100%;
   align-item: start;
@@ -52,7 +53,7 @@ header {
 .header-content {
   align-item: start;
   position: relative;
-  background-color: transparent; /* Set the background color of the header content */
+  background-color: #FFF; /* Set the background color of the header content */
 }
 
 .floating-banner {
@@ -63,12 +64,14 @@ header {
   top: 0;
   transition: top 0.2s ease;
   z-index: 1;
+  background-color: #FFF;
 }
 
 .floating-banner img {
   align-item: start;
   max-width: 100%;
   height: auto;
+  background-color: #FFF;
 }
 
 .header-navigation {
@@ -76,6 +79,7 @@ header {
   position: relative;
   top: 0;
   transition: top 0.3s ease;
+  background-color: #FFF;
 }
 
 
