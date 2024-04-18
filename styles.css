@@ -73,20 +73,20 @@ header {
 }
 
 
-hr {
-  order: 3;
-  background-color: #FFF; /* Set the background color of the header navigation */
-  margin: 0;
-  border: none;
-  border-top: 1px solid #ccc;
-}
-
 nav {
   order: 1;
   margin-top: -5px;
   background-color: #FFF; /* Set the background color of the header navigation */
   background-color: #f2f2f2;
   padding: 10px 0;
+}
+
+hr {
+  order: 3;
+  background-color: #FFF; /* Set the background color of the header navigation */
+  margin: 0;
+  border: none;
+  border-top: 1px solid #ccc;
 }
 
 .folder-tabs {
