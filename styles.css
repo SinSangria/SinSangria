@@ -37,6 +37,7 @@ body {
 
 header {
   position: relative;
+  background-color: #FF0;
   width: 100%;
   flex: 1;
   margin-left: 15.85%;
