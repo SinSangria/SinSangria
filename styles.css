@@ -53,7 +53,7 @@ header {
 .floating-banner {
   padding: 0px;
   text-align: center;
-  position: relative;
+  position: sticky;
   top: 0;
   transition: top 0.2s ease;
   z-index: 1;
