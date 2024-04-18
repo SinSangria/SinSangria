@@ -96,6 +96,7 @@ hr {
 }
 
 nav {
+  transition: top 0.3s ease;
   position: relative;
   top: 0;
   background-color: #FFF; /* Set the background color of the header navigation */
