@@ -65,7 +65,7 @@ header {
 }
 
 .header-navigation {
-  position: sticky;
+  position: relative;
   top: 0;
   transition: top 0.3s ease;
   z-index: 1;
