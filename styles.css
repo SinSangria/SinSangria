@@ -66,14 +66,14 @@ header {
 
 .header-navigation {
   position: relative;
-  top: 0;
+  top: -20px;
   transition: top 0.3s ease;
   z-index: 1;
 }
 
 .social-links {
   position: relative;
-  top: -30;
+  top: -30px;
   margin-top: 0px;
   margin-bottom: 0px;
   background-image: url('images/NavBar.png');
@@ -98,7 +98,7 @@ hr {
 nav {
   transition: top 0.3s ease;
   position: relative;
-  top: -50;
+  top: -50px;
   background-color: #FFF; /* Set the background color of the header navigation */
   background-color: #f2f2f2;
   padding: 10px 0;
