@@ -65,7 +65,7 @@ header {
 }
 
 .header-navigation {
-  position: relative;
+  position: sticky;
   top: 0;
   transition: top 0.3s ease;
   z-index: 1;
@@ -143,6 +143,7 @@ nav {
 
 .main-content {
   flex: 1;
+  align-item: start;
   margin-top: 30px;
   width: 62%px;
   padding: 20px;
