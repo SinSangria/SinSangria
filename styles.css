@@ -36,6 +36,7 @@ body {
 }
 
 header {
+  align-item: start;
   flex: 1;
   margin-left: 15.85%;
   margin-right: 5%;
@@ -47,11 +48,13 @@ header {
 }
 
 .header-content {
+  align-item: start;
   position: relative;
   background-color: transparent; /* Set the background color of the header content */
 }
 
 .floating-banner {
+  align-item: start;
   padding: 0px;
   text-align: center;
   position: relative;
@@ -61,11 +64,13 @@ header {
 }
 
 .floating-banner img {
+  align-item: start;
   max-width: 100%;
   height: auto;
 }
 
 .header-navigation {
+  align-item: start;
   position: relative;
   top: 0;
   transition: top 0.3s ease;
@@ -84,6 +89,7 @@ nav {
 }
 
 hr {
+  align-item: start;
   order: 3;
   background-color: #FFF; /* Set the background color of the header navigation */
   margin: 0;
@@ -92,6 +98,7 @@ hr {
 }
 
 .folder-tabs {
+  align-item: start;
   display: flex;
   justify-content: center;
 }
