@@ -112,6 +112,7 @@ hr {
 
 .social-links {
   position: sticky;
+  top: 0;
   order: 2;
   background-image: url('images/NavBar.png');
   background-position: center;
@@ -148,6 +149,7 @@ hr {
   margin-top: 30px;
   width: 62%px;
   padding: 20px;
+  align-item: start;
   background-color: #FFF;
   margin-left: 20px; /* Add a left margin to the main content */
 }
