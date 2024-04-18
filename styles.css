@@ -72,6 +72,8 @@ header {
 }
 
 .social-links {
+  position: sticky;
+  top: 0;
   margin-top: -5px;
   margin-bottom: 10px;
   background-image: url('images/NavBar.png');
@@ -94,6 +96,8 @@ hr {
 }
 
 nav {
+  position: sticky;
+  top: 0;
   background-color: #FFF; /* Set the background color of the header navigation */
   background-color: #f2f2f2;
   padding: 10px 0;
