@@ -41,7 +41,7 @@ header {
   margin-right: 5%;
   top: 0;
   left: 0;
-
+position: sticky;
   z-index: 100;
 }
 
