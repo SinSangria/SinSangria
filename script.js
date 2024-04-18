@@ -7,8 +7,6 @@ window.addEventListener('scroll', function() {
   if (window.pageYOffset > 100) {
     banner.style.top = '-200px';
     headerNavigation.style.top = '-180px';
-    social.style.top = '-180px';
-    nav.style.top = '-180px';
   } else {
     banner.style.top = '0';
     headerNavigation.style.top = '0';
