@@ -81,6 +81,7 @@ header {
   background-color: #FFF;
   text-align: center;
   padding: 10px 0;
+  z-index: 3;
 }
 
 .social-links a {
@@ -102,6 +103,7 @@ nav {
   background-attachment: fixed;
   background-repeat: no-repeat;
   padding: 0;
+  z-index: 3;
 }
 
 .folder-tabs {
