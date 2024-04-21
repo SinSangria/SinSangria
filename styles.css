@@ -122,7 +122,7 @@ hr {
 nav {
   position: sticky;
   top: 0%;
-  width: 400px;
+  width: 150%;
   background-image: url('images/NavBar.png');
   background-display: flex;
   background-position: top center;
