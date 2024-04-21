@@ -4,7 +4,6 @@ window.addEventListener('scroll', function() {
   const headerNavigation = document.querySelector('.header-navigation');
   if (window.pageYOffset > 100) {
     banner.style.top = '-140px';
-    headerNavigation.style.top = '-180px';
   } else {
     banner.style.top = '0';
     headerNavigation.style.top = '0';
