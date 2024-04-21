@@ -68,10 +68,10 @@ header {
 
 .header-navigation {
   position: sticky;
-  top: -50%;
+  top: 0;
+  bottom: 100%;
   transition: top 0.3s ease;
   z-index: 1;
-  background-color: transparent; /* Set the background color of the header navigation */
 }
 
 .social-links {
