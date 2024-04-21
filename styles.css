@@ -126,7 +126,7 @@ nav {
   background-display: flex;
   background-position: top center;
   background-size: 100%;
-  
+  background-height: Auto;
   background-repeat: no-repeat;
   z-index: 3;
 }
