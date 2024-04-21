@@ -40,7 +40,7 @@ header {
   margin-right: 5%;
   top: 0;
   left: 0;
-  position: fixed;
+  position: relative;
   z-index: 100;
 }
 
@@ -50,6 +50,7 @@ header {
 }
 
 .floating-banner {
+  position: fixed;s
   padding: 0px;
   text-align: center;
   position: relative;
