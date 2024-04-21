@@ -142,9 +142,9 @@ nav {
   border: none;
   outline: none;
   cursor: pointer;
-  border-top-right-radius: 10px;
-  width: 60px;
-  padding: 6px 6px;
+  border-top-right-radius: 20px;
+  width: 70px;
+  padding: 10px 10px;
   transition: background-color 0.3s ease;
   margin: 0px 18px;
   margin-top: 5px;
