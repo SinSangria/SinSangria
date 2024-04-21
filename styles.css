@@ -71,7 +71,7 @@ header {
   margin-right: 5%;
   position: sticky;
   transition: top 0.3s ease;
-  z-index: 2;
+  z-index: 3;
   display: block;
 }
 
