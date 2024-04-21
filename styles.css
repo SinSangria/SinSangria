@@ -144,7 +144,7 @@ nav {
   width: 60px;
   padding: 10px 10px;
   transition: background-color 0.3s ease;
-  margin: 5px 5px;
+  margin: 0px 0px;
 }
 
 .tab-button.active {
