@@ -155,7 +155,7 @@ nav {
   color: #fff;
 }
 
-.tab-button a:hover {
+.tab-button:hover {
   background-color: #333;
 }
 
