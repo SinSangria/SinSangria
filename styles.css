@@ -63,7 +63,6 @@ header {
 }
 
 .floating-banner {
-  background-color: transparent; /* Change the background color to transparent */
   text-align: center;
   position: relative;
   padding: 0;
@@ -71,7 +70,6 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   bottom: 0;
-  transition: top 0.3s ease;
   z-index: 1;
   background-color: #FFF;
 }
@@ -105,7 +103,7 @@ header {
   top: 0px;
   background-color: #FFF;
   text-align: center;
-  padding: 10px 0;
+  padding: 6px 0;
   z-index: 3;
 }
 
