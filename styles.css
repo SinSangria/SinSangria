@@ -125,7 +125,7 @@ nav {
   background-image: url('images/NavBar.png');
   background-display: flex;
   background-position: top center;
-  background-size: 250%;
+  background-size: 150%;
   
   background-repeat: no-repeat;
   z-index: 3;
