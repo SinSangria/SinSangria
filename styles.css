@@ -127,8 +127,8 @@ nav {
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
   z-index: 3;
 }
 
@@ -145,7 +145,7 @@ nav {
   width: 60px;
   padding: 6px 6px;
   transition: background-color 0.3s ease;
-  margin: 0px 12px;
+  margin: 0px 18px;
   margin-top: 5px;
 }
 
