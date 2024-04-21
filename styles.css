@@ -137,12 +137,12 @@ nav {
 }
 
 .tab-button {
-  background-color: #a7a6a3;
+  background-color: #FFF;
   border: none;
   outline: none;
   cursor: pointer;
   width: 40px;
-  padding: 0px 0px;
+  padding: 10px 10px;
   transition: background-color 0.3s ease;
   margin: 5px 5px;
 }
