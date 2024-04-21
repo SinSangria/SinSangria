@@ -65,14 +65,14 @@ header {
 
 .header-navigation {
  position: sticky;
- top: 0;
+ top: -50px;
  z-index: 2; 
 }
 
 .social-links {
+  background-color: #FFF;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-image: url('images/NavBar.png');
   background-position: center;
   text-align: center;
   padding: 10px 0;
@@ -93,6 +93,7 @@ hr {
 
 nav {
   background-color: #f2f2f2;
+  background-image: url('images/NavBar.png');
   padding: 10px 0;
 }
 
