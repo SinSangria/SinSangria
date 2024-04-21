@@ -69,9 +69,8 @@ header {
 .header-navigation {
   position: sticky;
   top: 0;
-  bottom: 100%;
   transition: top 0.3s ease;
-  z-index: 1;
+  z-index: 2;
 }
 
 .social-links {
@@ -94,7 +93,6 @@ hr {
 
 nav {
   background-image: url('images/NavBar.png');
-  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
