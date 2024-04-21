@@ -57,7 +57,7 @@ header {
   text-align: center;
   position: relative;
   top: 0;
-  transition: top 0.2s ease;
+  transition: top 0.3s ease;
   z-index: 1;
 }
 
@@ -92,7 +92,11 @@ hr {
 }
 
 nav {
-  background-color: #f2f2f2;
+  background-image: url('images/NavBar.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 10px 0;
 }
 
