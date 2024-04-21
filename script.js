@@ -1,4 +1,17 @@
+// Function to handle floating banner and header navigation visibility
+window.addEventListener('scroll', function() {
+  const banner = document.querySelector('.floating-banner');
+  const social = document.querySelector('.social-links');
+  const nav = document.querySelector('nav');
+  const headerNavigation = document.querySelector('.header-navigation');
+  if (window.pageYOffset > 100) {
+    banner.style.top = '-200px';
 
+  } else {
+    banner.style.top = '0';
+
+  }
+});
 
 // Function to handle folder tab navigation
 const tabButtons = document.querySelectorAll('.tab-button');
