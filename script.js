@@ -1,13 +1,13 @@
 // Function to handle floating banner and header navigation visibility
 window.addEventListener('scroll', function() {
   const banner = document.querySelector('.floating-banner');
-  const social = document.querySelector('.social-links');
+  const headerNavigation = document.querySelector('.header-navigation');
   if (window.pageYOffset > 100) {
     banner.style.top = '-140px';
-    social.style.top = '-140px';
+    headerNavigation.style.top = '-140px';
   } else {
     banner.style.top = '0';
-    social.style.top = '0';
+    headerNavigation.style.top = '0';
   }
 });
 
