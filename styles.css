@@ -92,7 +92,7 @@ header {
   margin-bottom: 1%;
   position: sticky;
   padding: 0;
-  top: -10px;
+  top: -40px;
   margin-top: 0;
   transition: top 0.3s ease;
   z-index: 3;
@@ -125,6 +125,7 @@ nav {
   top: 0%;
   background-image: url('images/NavBar.png');
   background-display: flex;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 0;
   z-index: 3;
