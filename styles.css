@@ -71,7 +71,7 @@ header {
   margin-bottom: 0;
   bottom: 0;
   z-index: 1;
-  background-color: #FFF;
+  background-color: #e6e5e5;
 }
 
 .floating-banner img {
@@ -137,7 +137,7 @@ nav {
 }
 
 .tab-button {
-  background-color: #a7a6a3;
+  background-color: #c0bfbd;
   border: none;
   outline: none;
   cursor: pointer;
