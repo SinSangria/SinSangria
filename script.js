@@ -2,8 +2,6 @@
 window.addEventListener('scroll', function() {
   const banner = document.querySelector('.floating-banner');
   const social = document.querySelector('.social-links');
-  const nav = document.querySelector('nav');
-  const headerNavigation = document.querySelector('.header-navigation');
   if (window.pageYOffset > 100) {
     banner.style.top = '-300px';
     social.style.top = '-200px';
