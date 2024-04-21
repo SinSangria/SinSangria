@@ -141,10 +141,10 @@ nav {
   border: none;
   outline: none;
   cursor: pointer;
-  width: 60px;
+  width: 40px;
   padding: 0px 0px;
   transition: background-color 0.3s ease;
-  margin: 0 5px;
+  margin: 5px 5px;
 }
 
 .tab-button.active {
