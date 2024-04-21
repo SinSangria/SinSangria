@@ -71,7 +71,7 @@ header {
   margin-right: 5%;
   position: sticky;
   transition: top 0.3s ease;
-  z-index: 1;
+  z-index: 2;
   display: block;
 }
 
@@ -97,7 +97,7 @@ hr {
 
 nav {
   position: sticky;
-  top: 2em;
+  top: 5%;
   background-image: url('images/NavBar.png');
   background-repeat: no-repeat;
   padding: 0;
