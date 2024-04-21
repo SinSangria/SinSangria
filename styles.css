@@ -36,16 +36,17 @@ body {
 }
 
 header {
-  flex: 1;
   margin-left: 15.85%;
   margin-right: 5%;
   top: 0;
   left: 0;
-  position: fixed;
+  position: sticky;
+  width: 100%;
   z-index: 100;
 }
 
 .header-content {
+  position: relative;
   background-color: transparent; /* Set the background color of the header content */
 }
 
@@ -54,7 +55,7 @@ header {
   text-align: center;
   position: relative;
   top: 0;
-  transition: top 0.2s ease;
+  transition: top 0.3s ease;
   z-index: 1;
 }
 
@@ -64,12 +65,12 @@ header {
 }
 
 .header-navigation {
-
+ position: sticky;
+ top: 0;
+ z-index: 2; 
 }
 
 .social-links {
-  position: sticky;
-  top: -30px;
   margin-top: 0px;
   margin-bottom: 0px;
   background-image: url('images/NavBar.png');
@@ -92,10 +93,6 @@ hr {
 }
 
 nav {
-  transition: top 0.3s ease;
-  position: sticky;
-  top: -50px;
-  background-color: #FFF; /* Set the background color of the header navigation */
   background-color: #f2f2f2;
   padding: 10px 0;
 }
