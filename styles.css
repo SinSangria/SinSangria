@@ -42,7 +42,7 @@ header {
   margin-right: 5%;
   top: 0;
   left: 0;
-  position: fixed;
+  position: relative;
   z-index: 100;
 }
 
