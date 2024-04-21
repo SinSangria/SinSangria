@@ -92,7 +92,7 @@ header {
   margin-bottom: 1%;
   position: sticky;
   padding: 0;
-  top: -10;
+  top: -10px;
   margin-top: 0;
   transition: top 0.3s ease;
   z-index: 3;
