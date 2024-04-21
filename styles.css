@@ -73,6 +73,7 @@ header {
   bottom: 0;
   transition: top 0.3s ease;
   z-index: 1;
+  background-color: #FFF;
 }
 
 .floating-banner img {
