@@ -127,7 +127,7 @@ nav {
   display: flex;
   margin-left: 15.85%;
   margin-right: 5%;
-  margin-top: 4%;
+  margin-top: 0%;
 }
 
 .sidebar {
@@ -144,7 +144,7 @@ nav {
 .main-content {
   flex: 1;
   margin-top: 0px;
-  width: 62%px;
+  width: 62%;
   padding: 20px;
   background-color: #FFF;
   margin-left: 20px; /* Add a left margin to the main content */
