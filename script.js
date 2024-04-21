@@ -3,7 +3,7 @@ window.addEventListener('scroll', function() {
   const banner = document.querySelector('.floating-banner');
   const headerNavigation = document.querySelector('.header-navigation');
   if (window.pageYOffset > 100) {
-    banner.style.top = '-140px';
+    banner.style.top = '-200px';
     headerNavigation.style.top = '-140px';
   } else {
     banner.style.top = '0';
