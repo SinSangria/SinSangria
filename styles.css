@@ -47,7 +47,6 @@ header {
 
 .header-content {
   position: relative;
-  background-color: transparent; /* Set the background color of the header content */
 }
 
 .floating-banner {
@@ -66,7 +65,6 @@ header {
 }
 
 .header-navigation {
-  position: sticky;
   top: 0;
   transition: top 0.3s ease;
   z-index: 2;
