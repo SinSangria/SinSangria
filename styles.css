@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  flex:1;
+  display: flex;
 }
 
 .quick-nav {
@@ -36,24 +36,27 @@ body {
 }
 
 header {
+  flex: 1;
   margin-left: 15.85%;
   margin-right: 5%;
+  position: fixed;
   top: 0;
   left: 0;
+
   z-index: 100;
 }
 
 .header-content {
+  position: relative;
   background-color: transparent; /* Set the background color of the header content */
 }
 
 .floating-banner {
-  position: fixed;
   padding: 0px;
   text-align: center;
   position: relative;
   top: 0;
-  transition: top 0.3s ease;
+  transition: top 0.2s ease;
   z-index: 1;
 }
 
@@ -63,15 +66,15 @@ header {
 }
 
 .header-navigation {
- position: sticky;
- top: -50;
- z-index: 2; 
+  position: relative;
+  top: 0;
+  transition: top 0.3s ease;
+  z-index: 1;
 }
 
 .social-links {
-  background-color: #FFF;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: -10px;
+  background-image: url('images/NavBar.png');
   background-position: center;
   text-align: center;
   padding: 10px 0;
@@ -91,8 +94,8 @@ hr {
 }
 
 nav {
+  background-color: #FFF; /* Set the background color of the header navigation */
   background-color: #f2f2f2;
-  background-image: url('images/NavBar.png');
   padding: 10px 0;
 }
 
@@ -106,7 +109,7 @@ nav {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 10px 20px;
   transition: background-color 0.3s ease;
   margin: 0 5px;
 }
@@ -120,7 +123,7 @@ nav {
   display: flex;
   margin-left: 15.85%;
   margin-right: 5%;
-  margin-top: 4%;
+  margin-top: 24%;
 }
 
 .sidebar {
@@ -136,7 +139,6 @@ nav {
 
 .main-content {
   flex: 1;
-  align-items: start;
   margin-top: 30px;
   width: 62%px;
   padding: 20px;
