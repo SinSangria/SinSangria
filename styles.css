@@ -67,13 +67,14 @@ header {
 .header-navigation {
   margin-left: 15.85%;
   margin-right: 5%;
-  position: sticky;
-  top: 0;
+  position: relative;
   transition: top 0.3s ease;
   z-index: 1;
 }
 
 .social-links {
+  position: sticky;
+  top: 0;
   background-color: #FFF;
   text-align: center;
   padding: 10px 0;
@@ -92,6 +93,8 @@ hr {
 }
 
 nav {
+  position: sticky;
+  top: 0;
   background-image: url('images/NavBar.png');
   background-repeat: no-repeat;
   padding: 10px 0;
