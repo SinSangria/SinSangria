@@ -94,7 +94,7 @@ header {
 
 .social-links {
   position: sticky;
-  top: -5%;
+  top: -5px;
   background-color: #FFF;
   text-align: center;
   padding: 10px 0;
@@ -115,7 +115,7 @@ hr {
 
 nav {
   position: sticky;
-  top: 5%;
+  top: 0%;
   background-image: url('images/NavBar.png');
   background-display: flex;
   background-repeat: no-repeat;
