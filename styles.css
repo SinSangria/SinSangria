@@ -11,6 +11,9 @@ body {
 
 .container {
   display: block;
+  padding: 0;
+  top: 0;
+  margin-top: 0;
 }
 
 .quick-nav {
@@ -40,22 +43,28 @@ header {
   flex: 1;
   margin-left: 15.85%;
   margin-right: 5%;
+  padding: 0;
   top: 0;
+  margin-top: 0;
   left: 0;
   position: relative;
   z-index: 100;
 }
 
 .header-content {
+  padding: 0;
+  top: 0;
+  margin-top: 0;
   position: relative;
 }
 
 .floating-banner {
   background-color: transparent; /* Change the background color to transparent */
-  padding: 0px;
   text-align: center;
   position: relative;
+  padding: 0;
   top: 0;
+  margin-top: 0;
   transition: top 0.3s ease;
   z-index: 1;
 }
@@ -71,6 +80,9 @@ header {
   margin-right: 5%;
   margin-bottom: 2%;
   position: sticky;
+  padding: 0;
+  top: 0;
+  margin-top: 0;
   transition: top 0.3s ease;
   z-index: 3;
   display: block;
@@ -132,6 +144,8 @@ nav {
   margin-left: 15.85%;
   margin-right: 5%;
   margin-top: 0%;
+  padding: 0;
+  top: 0;
 }
 
 .sidebar {
@@ -195,7 +209,7 @@ section {
 
 .quick-back {
   max-width: 1%;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .quick-back img{
