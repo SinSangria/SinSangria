@@ -97,9 +97,10 @@ hr {
 
 nav {
   position: sticky;
+  top: 0;
   background-image: url('images/NavBar.png');
   background-repeat: no-repeat;
-  padding: 10px 0;
+  padding: 0;
 }
 
 .folder-tabs {
