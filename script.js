@@ -3,8 +3,8 @@ window.addEventListener('scroll', function() {
   const banner = document.querySelector('.floating-banner');
   const social = document.querySelector('.social-links');
   if (window.pageYOffset > 100) {
-    banner.style.top = '-300px';
-    social.style.top = '-200px';
+    banner.style.top = '-140px';
+    social.style.top = '-140px';
   } else {
     banner.style.top = '0';
     social.style.top = '0';
