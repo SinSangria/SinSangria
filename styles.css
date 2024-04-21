@@ -100,7 +100,7 @@ nav {
   position: sticky;
   top: 5%;
   background-image: url('images/NavBar.png');
-  background-attachment: fixed;
+  background-attachment: relative;
   background-repeat: no-repeat;
   padding: 0;
   z-index: 3;
