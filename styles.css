@@ -127,8 +127,8 @@ nav {
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
   z-index: 3;
 }
 
