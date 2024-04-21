@@ -5,7 +5,7 @@ window.addEventListener('scroll', function() {
   const nav = document.querySelector('nav');
   const headerNavigation = document.querySelector('.header-navigation');
   if (window.pageYOffset > 100) {
-    banner.style.top = '-200hvm';
+    banner.style.top = '-200px';
     social.style.top = '-100px';
   } else {
     banner.style.top = '0';
