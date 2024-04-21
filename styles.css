@@ -65,9 +65,12 @@ header {
 }
 
 .header-navigation {
+  margin-left: 15.85%;
+  margin-right: 5%;
+  position: sticky;
   top: 0;
   transition: top 0.3s ease;
-  z-index: 2;
+  z-index: 1;
 }
 
 .social-links {
