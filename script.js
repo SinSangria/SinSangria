@@ -49,6 +49,7 @@ quickNavLinks.forEach(link => {
         
         // Scroll to the target section smoothly
         targetSection.scrollIntoView({
+          false;
           behavior: 'smooth'
         });
       }
