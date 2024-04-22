@@ -55,14 +55,3 @@ quickNavLinks.forEach(link => {
     }
   });
 });
-
-
-
-//Collapse
-      const collapsedClass = "quick-nav--collapsed";
-      const nav = document.querySelector(".quick-nav");
-      const navBorder = nav.querySelector(".quick-back img");
-      navBorder.addEventListener("click", () => {
-        nav.classList.toggle(collapsedClass);
-      });
-    }
