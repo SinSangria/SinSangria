@@ -62,7 +62,7 @@ quickNavLinks.forEach(link => {
       const collapsedClass = "quick-nav--collapsed";
       const lsKey = "navCollapsed";
       const nav = document.querySelector(".quick-nav");
-      const navBorder = nav.querySelector(".quick-back");
+      const navBorder = nav.querySelector(".quick-back img");
       if (localStorage.getItem(lsKey) === "true") {
         nav.classList.add(collapsedClass);
       }
