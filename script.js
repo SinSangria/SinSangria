@@ -60,14 +60,9 @@ quickNavLinks.forEach(link => {
 
 //Collapse
       const collapsedClass = "quick-nav--collapsed";
-      const lsKey = "navCollapsed";
       const nav = document.querySelector(".quick-nav");
       const navBorder = nav.querySelector(".quick-back img");
-      if (localStorage.getItem(lsKey) === "true") {
-        nav.classList.add(collapsedClass);
-      }
       navBorder.addEventListener("click", () => {
         nav.classList.toggle(collapsedClass);
-        localStorage.setItem(lsKey, nav.classList.contains(collapsedClass));
       });
     }
