@@ -12,7 +12,7 @@ window.addEventListener('scroll', function() {
 
 // Function to handle folder tab navigation
 const tabButtons = document.querySelectorAll('.tab-button');
-const sections = document.querySelectorAll('.main-content > section');
+const sections = document.querySelectorAll('body > section');
 
 tabButtons.forEach((button, index) => {
   button.addEventListener('click', () => {
