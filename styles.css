@@ -203,6 +203,7 @@ section {
 .gallery-section,
 .faq-item {
  margin-bottom: 20px;
+ clear: both;
 }
 
 .quick-nav {
